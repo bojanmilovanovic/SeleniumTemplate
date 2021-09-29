@@ -12,6 +12,7 @@ public class BaseSetup {
     protected static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
     public static String remote_url_chrome = Constants.CONST_LOCALHOST;
 
+
     public void setupThread(String browserName) throws MalformedURLException    {
         if(browserName.equalsIgnoreCase("chrome"))        {
             System.out.println("Inside Chrome");
@@ -20,7 +21,7 @@ public class BaseSetup {
         }
     }
 
-    public WebDriver getDriver()    {
+    public WebDriver getDriver() {
         return driver.get();
     }
 
