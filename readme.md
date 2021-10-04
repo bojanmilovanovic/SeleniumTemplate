@@ -10,7 +10,7 @@ Docker setup:
 https://github.com/SeleniumHQ/docker-selenium/blob/trunk/README.md
 ```
 ## To Do
-- Create a custom docket file ⛔
+- Create a custom docker file ⛔
 - Add support for running tests locally 👍
 - Add reporting feature ⛔
 
